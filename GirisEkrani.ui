@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Giriş</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(239, 231, 204);
+</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>391</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS UI Gothic</family>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(193, 187, 168);
+border-radius: 40px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btngirisyap">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>390</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: black;
+	border-style: outset;
+	border-radius: 10px;
+	
+	background-color: rgb(196, 199, 198);
+}
+QPushButton:pressed{
+	border-style: inset;
+	background-color: rgb(143, 145, 144);
+}</string>
+   </property>
+   <property name="text">
+    <string>Giriş Yap</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rdsifregosterr">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>300</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(193, 187, 168);
+color: black;</string>
+   </property>
+   <property name="text">
+    <string>Şifreyi göster</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnkayitolmak">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>350</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: black;
+	border-style: outset;
+	border-radius: 10px;
+	
+	background-color: rgb(196, 199, 198);
+}
+QPushButton:pressed{
+	border-style: inset;
+	background-color: rgb(143, 145, 144);
+}</string>
+   </property>
+   <property name="text">
+    <string>Kayıt Ol</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btncikisyap">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>390</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: black;
+	border-style: outset;
+	border-radius: 10px;
+	
+	background-color: rgb(196, 199, 198);
+}
+QPushButton:pressed{
+	border-style: inset;
+	background-color: rgb(143, 145, 144);
+}</string>
+   </property>
+   <property name="text">
+    <string>Çıkış</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(193, 187, 168);
+
+</string>
+   </property>
+   <property name="text">
+    <string>Giriş Ekranı</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lnekullaniciadi">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>190</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border:2px solid rgb(37, 39, 48);
+	border-radius:20px;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+	background-color: rgb(196, 199, 198);
+	
+}
+QLineEdit:hover{
+	border: 2px solid rgb(48, 50, 62);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+	
+	background-color: rgb(143, 145, 144);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>  Kullanıcı Adı</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>350</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: rgb(193, 187, 168);</string>
+   </property>
+   <property name="text">
+    <string>Henüz bir kaydın yok mu?</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lnesifre">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>240</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border:2px solid rgb(37, 39, 48);
+	border-radius:20px;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+	background-color: rgb(196, 199, 198);
+	
+}
+QLineEdit:hover{
+	border: 2px solid rgb(48, 50, 62);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+	
+	background-color: rgb(143, 145, 144);
+}</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>  Şifre</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnytube">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>460</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Social Media Circled</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background:#636363;
+	border-style: outset;
+	border-radius: 15px;
+}
+QPushButton:pressed{
+	
+	background-color: rgb(196, 199, 198);
+	border-style: inset;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>M</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>470</y>
+     <width>291</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: rgb(193, 187, 168);</string>
+   </property>
+   <property name="text">
+    <string>YouTube kanalını ziyaret etmek için tıklayınız.</string>
+   </property>
+  </widget>
+  <zorder>lineEdit</zorder>
+  <zorder>btngirisyap</zorder>
+  <zorder>rdsifregosterr</zorder>
+  <zorder>btncikisyap</zorder>
+  <zorder>label</zorder>
+  <zorder>lnekullaniciadi</zorder>
+  <zorder>lnesifre</zorder>
+  <zorder>label_2</zorder>
+  <zorder>btnkayitolmak</zorder>
+  <zorder>btnytube</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

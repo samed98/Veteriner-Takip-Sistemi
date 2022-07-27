@@ -1,0 +1,2795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1501</width>
+    <height>1049</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Comic Sans MS</family>
+    <pointsize>9</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>20</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>VETERİNER TAKİP FORMU</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>20</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tarih:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hayvan Sahibine Ait Bilgiler</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AD- SOYAD:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Ad_Soyad">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>85</y>
+      <width>331</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADRES:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Adres">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>125</y>
+      <width>331</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:16px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İL:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İLÇE:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TELEFON NUMARASI:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Telefon_Numarasi">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>330</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E-POSTA:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="E_Posta">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>360</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>255</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AĞIRLIK:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>85</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HASTA İSMİ:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Hasta_Ismi">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>85</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>285</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TEMEL ŞİKAYETLER:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>45</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HAYVAN BİLGİLERİ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>115</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DOĞUM TARİHİ:</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dogum_tarihi">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>115</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDateEdit{
+border-radius:2px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+}
+QDateEdit:hover{
+border: 2px solid rgb(79, 83, 102);
+}</string>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>155</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CİNSİYET:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmb_Cinsiyet">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>145</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+border-radius:6px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+}
+QComboBox:hover{
+border: 2px solid rgb(79, 83, 102);
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Seçiniz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dişi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erkek</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kısırlaştırılmış Dişi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kısırlaştırılmış Erkek</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>195</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CİNS:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmb_Cins">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>185</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+border-radius:6px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+}
+QComboBox:hover{
+border: 2px solid rgb(79, 83, 102);
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Seçiniz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kedi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Köpek</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>At</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Büyükbaş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Küçükbaş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kuş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sürüngen</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diğer</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="Yavru">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>225</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>225</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>YAVRU:</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="dsb_Agirlik">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>255</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:2px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Yillik_Kontrol">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>305</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Yıllık Kontrol</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Yavru_Kedi">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>325</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yavru Kedi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Uyusukluk">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>345</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Uyuşukluk</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Kusma">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>365</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kusma</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Ishal">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>305</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İshal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Hapsirik">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>345</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hapşırma</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Oksuruk">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>325</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Öksürük</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Goz_Kontrol">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>365</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Göz Kontrol</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Idrar_Yapma">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>385</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Artan İçme/İdrar Yapma</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Azalan_Istah">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>345</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Azalan İştah</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Kulak_Kontrol">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>305</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kulak Kontrol</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Felc">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>305</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Felç</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Topallik">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>345</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Topallık</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Cilt_Kontrol">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>325</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cilt Kontrol</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Nefes_Problemi">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>365</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nefes Problemi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Artan_Istah">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>325</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Artan İştah</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chkDis">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>385</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diş</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Secmeli_Cerrahi">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>365</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Seçmeli Cerrahi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Cerrahi">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>385</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cerrahi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Diger2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>385</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diğer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>FİZİKSEL TEST BULGULARI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ÖN GÖZLEM:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Sicaklik">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>550</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SICAKLIK:</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Hareket">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>460</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hareketli</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Terli">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>480</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Terli</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Duyarsiz">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>500</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Duyarsız</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Stresli">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>460</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stresli</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Istikrarli">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>500</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İstikrarlı</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Kuru">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>480</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kuru</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Dinc">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>460</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dinç</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Sokta">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>480</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Şokta</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Olasi">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>500</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Olası İstikrarsız</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Istikrarsiz">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>520</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İstikrarsız</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Diger1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>520</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diğer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>580</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KALP ATIŞI:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Kalp_Atisi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>580</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>610</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SOLUNUM:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Solunum">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>610</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>640</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>VÜCÜT KONDİSYON,</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>660</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PUANI:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmb_Puan">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>640</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+border-radius:6px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+}
+QComboBox:hover{
+border: 2px solid rgb(79, 83, 102);
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Seçiniz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8/9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9/9</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>460</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AĞIZ BOŞLUĞU:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>480</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Agiz_Boslugu">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>480</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>530</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Gozler">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>530</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+    background-color: rgb(239, 231, 204);}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>510</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GÖZLER:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>590</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu__Kulaklar">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>590</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>570</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KULAKLAR:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>650</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Burun_Bogaz">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>650</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>630</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BURUN/BOĞAZ:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>710</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Kalp">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>710</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>690</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KALP:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Iskelet_Kas">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>710</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Akcigerler">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>480</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_37">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>630</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DERİ:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_38">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>710</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>480</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Karin">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>530</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>590</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Lenf_Dugumleri">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>590</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>570</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LENF DÜĞÜMLERİ:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Deri">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>650</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>530</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>690</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İSKELET/KAS:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_44">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>460</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AKCİĞERLER:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_45">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>510</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KARIN:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_46">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>650</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Sinirler">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>760</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>760</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Bulgu_Urogenital">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>760</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border:2px solid rgb(221, 221, 221);
+	border-radius:6px;
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(239, 231, 204);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(79, 83, 102);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(85, 85, 127);
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_52">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>760</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal Bulgular</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_54">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>740</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SİNİRLER:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>740</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>UROGENİTAL:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_47">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>790</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TEŞHİSLER</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Idrar_Tahlili">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>850</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İdrar Tahlili</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Laym_Titre">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>810</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Laym Titre</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Karin_Ultrasonu">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>870</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Karın Ultrasonu</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Idrar_Gosterimi">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>890</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İdrar Gösterimi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Radyografi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>850</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Radyografi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_C_S">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>890</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aerobic C ve S</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_CBC">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>810</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>CBC</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Ameliyat_Oncesi_Kan_Tahlili">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>830</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ameliyat Öncesi Kan Tahlili</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Biyopsi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>810</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Biyopsi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_ECG">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>850</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ECG</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_T4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>830</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>T4</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Yankl_Yurek_Gosterimi">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>870</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yankılı Yürek Gösterimi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Felv_Fiv">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>890</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FELV/FIV</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Deri_Testi">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>870</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Deri Testi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Chem">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>830</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chem</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Kalp_Kurdu_Testi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>910</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kalp Kurdu Testi</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Diski">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>910</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dışkı</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="chk_Diger3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>910</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diğer</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="de_Tarih">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>20</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDateEdit{
+border-radius:2px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+}
+QDateEdit:hover{
+border: 2px solid rgb(79, 83, 102);
+}</string>
+    </property>
+    <property name="dateTime">
+     <datetime>
+      <hour>0</hour>
+      <minute>0</minute>
+      <second>0</second>
+      <year>2022</year>
+      <month>6</month>
+      <day>9</day>
+     </datetime>
+    </property>
+    <property name="minimumDate">
+     <date>
+      <year>2022</year>
+      <month>1</month>
+      <day>1</day>
+     </date>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ileri">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>900</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Wingdings 3</family>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color: black;
+	border-style: outset;
+	border-radius: 10px;
+	background-color: rgb(239, 231, 204);
+}
+QPushButton:pressed{
+	border-style: inset;
+    background-color: rgb(251, 197, 123);
+}</string>
+    </property>
+    <property name="text">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1441</width>
+      <height>971</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(193, 187, 168);
+border-radius: 50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Il">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>260</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+border-radius:6px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+}
+QComboBox:hover{
+border: 2px solid rgb(79, 83, 102);
+}</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal1">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>460</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal1">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>460</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>510</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>570</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal4">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>630</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal5">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>690</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal6">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>740</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal2">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>510</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal3">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>570</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal4">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>630</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal5">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>690</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal6">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>740</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal7">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>460</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal8">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>510</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal9">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>570</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal10">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>630</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal11">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>690</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_anormal12">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>740</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Anormal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal7">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>460</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal8">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>510</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal9">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>570</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal10">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>630</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal11">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>690</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rb_normal12">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>740</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Ilce">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>290</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+border-radius:6px;
+background-color: rgb(239, 231, 204);
+border:2px solid rgb(221, 221, 221);
+color: rgb(0, 0, 0);
+}
+QComboBox:hover{
+border: 2px solid rgb(79, 83, 102);
+}</string>
+    </property>
+   </widget>
+   <zorder>label_20</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>Ad_Soyad</zorder>
+   <zorder>label_5</zorder>
+   <zorder>Adres</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>Telefon_Numarasi</zorder>
+   <zorder>label_9</zorder>
+   <zorder>E_Posta</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>Hasta_Ismi</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_14</zorder>
+   <zorder>label_16</zorder>
+   <zorder>dogum_tarihi</zorder>
+   <zorder>label_17</zorder>
+   <zorder>cmb_Cinsiyet</zorder>
+   <zorder>label_18</zorder>
+   <zorder>cmb_Cins</zorder>
+   <zorder>Yavru</zorder>
+   <zorder>label_19</zorder>
+   <zorder>dsb_Agirlik</zorder>
+   <zorder>chk_Yillik_Kontrol</zorder>
+   <zorder>chk_Yavru_Kedi</zorder>
+   <zorder>chk_Uyusukluk</zorder>
+   <zorder>chk_Kusma</zorder>
+   <zorder>chk_Ishal</zorder>
+   <zorder>chk_Hapsirik</zorder>
+   <zorder>chk_Oksuruk</zorder>
+   <zorder>chk_Goz_Kontrol</zorder>
+   <zorder>chk_Idrar_Yapma</zorder>
+   <zorder>chk_Azalan_Istah</zorder>
+   <zorder>chk_Kulak_Kontrol</zorder>
+   <zorder>chk_Felc</zorder>
+   <zorder>chk_Topallik</zorder>
+   <zorder>chk_Cilt_Kontrol</zorder>
+   <zorder>chk_Nefes_Problemi</zorder>
+   <zorder>chk_Artan_Istah</zorder>
+   <zorder>chkDis</zorder>
+   <zorder>chk_Secmeli_Cerrahi</zorder>
+   <zorder>chk_Cerrahi</zorder>
+   <zorder>chk_Diger2</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_15</zorder>
+   <zorder>Sicaklik</zorder>
+   <zorder>label_22</zorder>
+   <zorder>chk_Hareket</zorder>
+   <zorder>chk_Terli</zorder>
+   <zorder>chk_Duyarsiz</zorder>
+   <zorder>chk_Stresli</zorder>
+   <zorder>chk_Istikrarli</zorder>
+   <zorder>chk_Kuru</zorder>
+   <zorder>chk_Dinc</zorder>
+   <zorder>chk_Sokta</zorder>
+   <zorder>chk_Olasi</zorder>
+   <zorder>chk_Istikrarsiz</zorder>
+   <zorder>chk_Diger1</zorder>
+   <zorder>label_23</zorder>
+   <zorder>Kalp_Atisi</zorder>
+   <zorder>label_24</zorder>
+   <zorder>Solunum</zorder>
+   <zorder>label_25</zorder>
+   <zorder>label_26</zorder>
+   <zorder>cmb_Puan</zorder>
+   <zorder>label_27</zorder>
+   <zorder>label_28</zorder>
+   <zorder>Bulgu_Agiz_Boslugu</zorder>
+   <zorder>label_29</zorder>
+   <zorder>Bulgu_Gozler</zorder>
+   <zorder>label_30</zorder>
+   <zorder>label_31</zorder>
+   <zorder>Bulgu__Kulaklar</zorder>
+   <zorder>label_32</zorder>
+   <zorder>label_33</zorder>
+   <zorder>Bulgu_Burun_Bogaz</zorder>
+   <zorder>label_34</zorder>
+   <zorder>label_35</zorder>
+   <zorder>Bulgu_Kalp</zorder>
+   <zorder>label_36</zorder>
+   <zorder>Bulgu_Iskelet_Kas</zorder>
+   <zorder>Bulgu_Akcigerler</zorder>
+   <zorder>label_37</zorder>
+   <zorder>label_38</zorder>
+   <zorder>label_39</zorder>
+   <zorder>Bulgu_Karin</zorder>
+   <zorder>label_40</zorder>
+   <zorder>Bulgu_Lenf_Dugumleri</zorder>
+   <zorder>label_41</zorder>
+   <zorder>Bulgu_Deri</zorder>
+   <zorder>label_42</zorder>
+   <zorder>B</zorder>
+   <zorder>label_44</zorder>
+   <zorder>label_45</zorder>
+   <zorder>label_46</zorder>
+   <zorder>Bulgu_Sinirler</zorder>
+   <zorder>label_49</zorder>
+   <zorder>Bulgu_Urogenital</zorder>
+   <zorder>label_52</zorder>
+   <zorder>label_54</zorder>
+   <zorder>label_55</zorder>
+   <zorder>label_47</zorder>
+   <zorder>chk_Idrar_Tahlili</zorder>
+   <zorder>chk_Laym_Titre</zorder>
+   <zorder>chk_Karin_Ultrasonu</zorder>
+   <zorder>chk_Idrar_Gosterimi</zorder>
+   <zorder>chk_Radyografi</zorder>
+   <zorder>chk_C_S</zorder>
+   <zorder>chk_CBC</zorder>
+   <zorder>chk_Ameliyat_Oncesi_Kan_Tahlili</zorder>
+   <zorder>chk_Biyopsi</zorder>
+   <zorder>chk_ECG</zorder>
+   <zorder>chk_T4</zorder>
+   <zorder>chk_Yankl_Yurek_Gosterimi</zorder>
+   <zorder>chk_Felv_Fiv</zorder>
+   <zorder>chk_Deri_Testi</zorder>
+   <zorder>chk_Chem</zorder>
+   <zorder>chk_Kalp_Kurdu_Testi</zorder>
+   <zorder>chk_Diski</zorder>
+   <zorder>chk_Diger3</zorder>
+   <zorder>de_Tarih</zorder>
+   <zorder>btn_ileri</zorder>
+   <zorder>Il</zorder>
+   <zorder>rb_normal1</zorder>
+   <zorder>rb_anormal1</zorder>
+   <zorder>rb_normal2</zorder>
+   <zorder>rb_normal3</zorder>
+   <zorder>rb_normal4</zorder>
+   <zorder>rb_normal5</zorder>
+   <zorder>rb_normal6</zorder>
+   <zorder>rb_anormal2</zorder>
+   <zorder>rb_anormal3</zorder>
+   <zorder>rb_anormal4</zorder>
+   <zorder>rb_anormal5</zorder>
+   <zorder>rb_anormal6</zorder>
+   <zorder>rb_anormal7</zorder>
+   <zorder>rb_anormal8</zorder>
+   <zorder>rb_anormal9</zorder>
+   <zorder>rb_anormal10</zorder>
+   <zorder>rb_anormal11</zorder>
+   <zorder>rb_anormal12</zorder>
+   <zorder>rb_normal7</zorder>
+   <zorder>rb_normal8</zorder>
+   <zorder>rb_normal9</zorder>
+   <zorder>rb_normal10</zorder>
+   <zorder>rb_normal11</zorder>
+   <zorder>rb_normal12</zorder>
+   <zorder>Ilce</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1501</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuYard_m">
+    <property name="title">
+     <string>Yardım</string>
+    </property>
+    <addaction name="menuhakkinda"/>
+   </widget>
+   <addaction name="menuYard_m"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="menuhakkinda">
+   <property name="text">
+    <string>Hakkında</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
